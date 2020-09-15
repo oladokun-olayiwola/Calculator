@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+form{
+    background: #000;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.screen{
+    width: 300px;
+    background: #fff;
+    height: 60px;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 25px;
+    
+    font-family: sans-serif;
+}
+button{
+    width: 230px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+input{
+    margin: 10px;
+    width: 60px;
+    padding: 5px;
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+}
+input:first-of-type{
+    margin-left: 30px;
+}
+form input#equals{
+    background: red;
+}
+form input#delete{
+    background: red;
+}
